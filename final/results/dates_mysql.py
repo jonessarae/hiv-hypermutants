@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
 """
-This program imports Hypermut data from Excel into MySQL 
+This program imports sequence data from Excel into MySQL.
+This data includes sequence ID, tissue type, date of collection.
 File must be in xls format
 """
 import sys
