@@ -70,7 +70,7 @@ The reference sequence must be the first sequence in the FASTA file.
 
 7. Get open reading frames from FASTA file and upload into MySQL using orf.py. 
 
-8. For demo of website, go to bfx.eng.jhu.edu/sjone215/final/hyper_tool.html, and enter "LEOHIR" into the searchbox to view results.
+8. For demo of website, go to http://bfx.eng.jhu.edu/sjone215/final/hyper_tool.html, and enter "LEOHIR" into the searchbox to view results.
 
 ## MySQL Database Design
 
