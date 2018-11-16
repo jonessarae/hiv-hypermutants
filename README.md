@@ -40,7 +40,7 @@ Below are the scripts and data files used for this project:
 
 ### Requirements
 
-Sequence files must be in fasta format. One may need to modify the file, especially if special characters like dashes
+Sequence files must be in FASTA format. One may need to modify the file, especially if special characters like dashes
 appear as a result of alignment.  
 
 ### Steps 
