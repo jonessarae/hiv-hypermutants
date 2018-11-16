@@ -55,7 +55,7 @@ hyperfreq analyze patient.fasta –r reference.fasta –o /path/to/file –p GA
 <ul>
 <li> -r reads the file </li>
 <li> -o outputs the results to path  </li>
-<li> -p pattern of interest </li>
+<li> -p pattern: APOBEC-induced G to A transition </li>
 </ul>
 4. Modify the file if necessary and upload into MySQL using hyperfreq_excel_mysql.py.
 
