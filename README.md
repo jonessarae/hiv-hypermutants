@@ -9,7 +9,12 @@ Website comparing results from two tools identifying HIV hypermutants: Hyperfreq
 Patients suppressed on antiretroviral therapy for years show persistence of proviruses of HIV-1 in peripheral blood mononuclear cells [1]. However, many of these proviruses are defective and are considered silent with respect to HIV pathogenesis [1]. Recently, Imamichi et al. identified defective viruses capable of transcribing HIV-RNA transcripts [1]. Her results suggest that these defective proviruses are not silent as originally thought and may even actually play a role in HIV pathogenesis by activating host defense pathways [1]. To better understand the population of the defective proviruses, also known as hypermutants, I used Hypermut and Hyperfreq. Hypermut is a commonly used tool available at www.hiv.lanl.gov for identifying HIV hypermutants from a list of sequences in FASTA format [2]. Hyperfreq is a command line tool that finds hypermutants using a Bayesian method [2]. According to Matsen et al., the Bayesian method is supposed to be an improvement on the statistical methods employed with Hypermut [2].  Since none of my colleagues had heard of or used Hyperfreq, I compared Hyperfreq to Hypermut for my final project. In addition, I characterized the open reading frames of hypermutants identified from these tools to determine the prevalence of shortened open reading frames. It is speculated that these truncated open reading frames may be producing viral proteins that are contributing to persistent antibody response despite suppression and eliciting CD4 and CD8 T-cell responses [1].
 
 ## Software/Scripts
+Installed Hyperfreq and its dependencies following instructions from: https://github.com/matsengrp/hyperfreq
 
+Accessed Hypermut at: https://www.hiv.lanl.gov/content/sequence/HYPERMUT/hypermut.html
+
+
+<pre>
 +----css
 |    +----hypermutants.css
 +----js
@@ -29,6 +34,7 @@ Patients suppressed on antiretroviral therapy for years show persistence of prov
 |    +----leohir_all.fasta
 |    +----modify_fasta.py
 |    +----sequences_mysql.py
+</pre>
 
 ## Usage
 
