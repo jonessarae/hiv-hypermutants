@@ -16,7 +16,7 @@ Accessed Hypermut at https://www.hiv.lanl.gov/content/sequence/HYPERMUT/hypermut
 ### Other software
 Web software (Ajax, Apache) and MySQL were hosted on my school's server. 
 ### Scripts
-Below are the scripts and data files used for this project:
+Below are the scripts and data files used for this project. These are available in the final folder. 
 <pre>
 +----css
 |    +----hypermutants.css
