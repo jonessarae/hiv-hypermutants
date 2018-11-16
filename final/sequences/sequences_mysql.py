@@ -33,7 +33,7 @@ def main():
 	coded_name = input("Enter coded name for patient: ")
 
 	#Establish a MySQL connection
-	database = mysql.connector.connect(user='sjone215', password='Hepatitis89!', host='localhost', database='sjone215_hypermutants')
+	database = mysql.connector.connect(user='sjone215', password=$PASSWORD, host='localhost', database='sjone215_hypermutants')
 
 	#Get the cursor, which is used to traverse the database, line by line
 	cursor = database.cursor()
