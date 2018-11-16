@@ -1,4 +1,4 @@
-#!/usr/local/bin/python3
+#!/usr/bin/env python3
 
 """
 This script reads a fasta file, uses SeqIO to generate open reading frames, and
@@ -25,7 +25,7 @@ def main():
 		sys.exit()
 
 	#Establish a MySQL connection
-	database = mysql.connector.connect(user='sjone215', password='Hepatitis89!', host='localhost', database='sjone215_hypermutants')
+	database = mysql.connector.connect(user='sjone215', password=$PASSWORD, host='localhost', database='sjone215_hypermutants')
 
 	#Get the cursor, which is used to traverse the database, line by line
 	cursor = database.cursor()
