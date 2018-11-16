@@ -51,12 +51,16 @@ appear as a result of alignment.
 
 3. Run the following command in the terminal:
 
-hyperfreq analyze patient.fasta –r reference.fasta –o /path/to/file –p GA
+<pre>
+   hyperfreq analyze patient.fasta –r reference.fasta –o /path/to/file –p GA
+</pre>
+
 <ul>
 <li> -r reads the file </li>
 <li> -o outputs the results to path  </li>
 <li> -p pattern: APOBEC-induced G to A transition </li>
 </ul>
+
 4. Modify the file if necessary and upload into MySQL using hyperfreq_excel_mysql.py.
 
 5. Run the same FASTA file in Hypermut using default options and save the results in Excel. 
@@ -64,9 +68,9 @@ The reference sequence must be the first sequence in the FASTA file.
 
 6. Upload Hypermut results to MySQL using hypermut_excel_mysql.py.
 
-6. Go to bfx.eng.jhu.edu/sjone215/final/hyper_tool.html.
+7. Go to bfx.eng.jhu.edu/sjone215/final/hyper_tool.html.
 
-7. For demo of website, Enter "LEOHIR" into the searchbox to view results.
+8. For demo of website, Enter "LEOHIR" into the searchbox to view results.
 
 ## MySQL Database Design
 
