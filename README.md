@@ -10,6 +10,26 @@ Patients suppressed on antiretroviral therapy for years show persistence of prov
 
 ## Software/Scripts
 
++----css
+|    +----hypermutants.css
++----js
+|    +----search.js
++----hyper_tool.html
++----results
+|    +----dates_mysql.py
+|    +----hyperfreq_analysis_leohir.xls
+|    +----hyerfreq_excel_mysql.py
+|    +----hypermut_analysis_leohir.xls
+|    +----hypermut_excel_mysql.py
+|    +----LEOHIR_dates.xlsx
+|    +----LEOHIR_modify.fasta
+|    +----orf.py
++----search_hypermutants.cgi
++----sequences
+|    +----leohir_all.fasta
+|    +----modify_fasta.py
+|    +----sequences_mysql.py
+
 ## Usage
 
 ## MySQL Database Design
