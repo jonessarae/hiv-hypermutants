@@ -43,29 +43,30 @@ Below are the scripts and data files used for this project:
 Sequence files must be in fasta format. One may need to modify the file, especially if special characters like dashes
 appear as a result of alignment.  
 
-### Steps
+### Steps 
 
-1. To use Hyperfreq on the local server, install Hyperfreq from the github link mentioned above.
+1. Install Hyperfreq.
 
-2. Obtain a fasta file and extract the reference sequence into another file. 
+2. Obtain a FASTA file and extract the reference sequence into another file (for Hyperfreq). 
 
-3. Run the following command on the terminal:
+3. Run the following command in the terminal:
 
 hyperfreq analyze patient.fasta –r reference.fasta –o /path/to/file –p GA
+
 -r reads the file
 -o outputs the results to path 
--p pattern
+-p pattern of interest
 
-4. Modify the file if necessary and upload into MySQL using hyperfreq_excel_mysql.py available at 
-http://bfx.eng.jhu.edu/sjone215/final/results/hyperfreq_excel_mysql.py
+4. Modify the file if necessary and upload into MySQL using hyperfreq_excel_mysql.py.
 
-5. Run the fasta file in Hypermut, a webline tool, and extract the results into excel. Save file and 
-run hypermut_excel_mysql.py available at http://bfx.eng.jhu.edu/sjone215/final/results/hypermut_excel_mysql.py
-to upload into MySQL.
+5. Run the same FASTA file in Hypermut using default options and save the results in Excel. 
+The reference sequence must be the first sequence in the FASTA file. 
+
+6. Upload Hypermut results to MySQL using hypermut_excel_mysql.py.
 
 6. Go to bfx.eng.jhu.edu/sjone215/final/hyper_tool.html.
 
-7. For the demo, enter "LEOHIR" into the searchbox.
+7. For demo of website, Enter "LEOHIR" into the searchbox to view results.
 
 ## MySQL Database Design
 
