@@ -88,7 +88,7 @@ http://bfx.eng.jhu.edu/sjone215/final/hyper_tool.html
 Here are screenshots of the website if the above link is not working: 
 
 ### Main page
-The user must enter a coded patient name (ex. LEOHIR) and select one of three options, "Hypermut", "Hyperfreq", and "Compare Both". For "Hypermut" and "Hyperfreq", the user can select an open reading frame (1,2,3) from a drop-down menu. 
+The user must enter a coded patient name (ex. LEOHIR) and select one of three options, "Hypermut", "Hyperfreq", and "Compare Both". Ideally, the website would have a list of coded patients for the user to select. For "Hypermut" and "Hyperfreq", the user can select an open reading frame (1,2,3) from a drop-down menu. 
 
 <img width="1252" alt="main_page" src="https://user-images.githubusercontent.com/42072830/48634121-e28a1f80-e992-11e8-984b-f21378dc79a9.png">
 
@@ -119,7 +119,7 @@ When either "Hypermut" or "Hyperfreq" is selected, the following results are dis
 <img width="685" alt="comparison" src="https://user-images.githubusercontent.com/42072830/48634128-e6b63d00-e992-11e8-9f11-bcde22ba55ed.png">
 
 ## Conclusions
-Hyperfreq found 62 hypermutants and Hypermut found 60 in the patient “LEOHIR”. There were only three mismatches out of a total of 257 sequences. The fisher p-value is 0.92, which means that these two tools are comparable at least for one patient. The open reading frames of the hypermutants exhibit a diverse range of lengths.
+For this project, I had HIV sequences collected from a variety of tissue sites from one patient "LEOHIR". The HIV sequences and the results from Hypermut and Hyperfreq were uploaded into a MySQL database and visualized on my website. Hyperfreq identified 62 hypermutants while Hypermut identified 60 for this patient. Altogether, there were only three mismatches out of a total of 257 sequences. The p-value for the Fisher's exact test was 0.92, which means that these two tools are comparable at least for one patient. The open reading frames of the hypermutants exhibited a diverse range of lengths, suggesting that these HIV hypermutants are capable of generating peptides. Further experimentation is required to validate the presense of these peptides. 
 ## References
 [1] Imamichi, H., Dewar, R. L., Adelsberger, J. W., Rehm, C. A., O’Doherty, U., Paxinos, E. E., ... & Lane, H. C. (2016). Defective HIV-1 proviruses produce novel protein-coding RNA species in HIV-infected patients on combination antiretroviral therapy. Proceedings of the National Academy of Sciences, 113(31), 8783-8788
 
